@@ -1,6 +1,6 @@
 {
   "name": "ocpr13-wh-framework",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Framework for the completion of the final OpenClassrooms challenge in the React application developer path",
   "type": "module",
   "files": [
