@@ -1,6 +1,6 @@
 {
   "name": "ocpr13-wh-framework",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Framework for the completion of the final OpenClassrooms challenge in the React application developer path",
   "type": "module",
   "files": [
@@ -17,6 +17,7 @@
     "format": "prettier --write \"src/**/*.{html,css,js,jsx,ts,tsx}\"",
     "lint": "eslint",
     "build": "vite build",
+    "postbuild": "cp package.json dist/package.json",
     "deploy": "npm run build && git add -f dist && git commit -m \"Deploy commit\" && git subtree push --prefix dist origin dist"
   },
   "author": "Alexi GRIGOROV",
