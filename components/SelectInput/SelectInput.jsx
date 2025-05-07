@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 import "./SelectInput.css";
 
-export default function SelectInput({ options, ...props }) {
+export default function SelectInput({ options, className, ...props }) {
   const combinedClassName = ["wh-select", className].filter(Boolean).join(" ");
 
   return (
