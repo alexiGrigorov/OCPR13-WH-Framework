@@ -17,7 +17,7 @@
     "format": "prettier --write \"src/**/*.{html,css,js,jsx,ts,tsx}\"",
     "lint": "eslint",
     "build": "vite build",
-    "deploy": "npm run build && git add -f dist && git commit -m \"Deploy commit\" && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && git add -f dist && git commit -m \"Deploy commit\" && git subtree push --prefix dist origin dist"
   },
   "author": "Alexi GRIGOROV",
   "repository": {

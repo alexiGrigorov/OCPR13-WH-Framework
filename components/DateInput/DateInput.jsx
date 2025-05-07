@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import "DateInput.css";
+import "./DateInput.css";
 
 export default function DateInput({ className, ...props }) {
   const combinedClassName = ["wh-date-input", className]
