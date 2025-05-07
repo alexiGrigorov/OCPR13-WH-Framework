@@ -1,0 +1,5 @@
+@layer components {
+  .wh-select {
+    width: var(--wh-field-width, 169px);
+  }
+}

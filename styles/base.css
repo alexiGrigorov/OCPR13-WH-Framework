@@ -1,0 +1,61 @@
+@layer base {
+  :root {
+    /* Color tokens (from legacy look) */
+    --wh-color-background: #fff;
+    --wh-color-surface: #f4f4f4;
+    --wh-color-text: #222;
+    --wh-color-primary: #0044cc;
+    --wh-color-border: #ccc;
+
+    /* Typography */
+    --wh-font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+    --wh-font-size-base: 1rem;
+
+    /* Spacing */
+    --wh-spacing-sm: 0.5rem; /* Used in label margins */
+    --wh-spacing-md: 1rem;
+
+    /* Borders */
+    --wh-border-radius: 0.25rem;
+  }
+
+  body {
+    font-family: var(--wh-font-family);
+    font-size: var(--wh-font-size-base);
+    color: var(--wh-color-text);
+    background-color: var(--wh-color-background);
+  }
+
+  a {
+    color: var(--wh-color-primary);
+    text-decoration: underline;
+  }
+
+  label {
+    display: block;
+    margin-top: var(--wh-spacing-md);
+    margin-bottom: 10px; /* Matches legacy */
+  }
+
+  legend {
+    font-weight: bold;
+    margin-bottom: var(--wh-spacing-sm);
+  }
+
+  button {
+    font: inherit;
+    cursor: pointer;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: var(--wh-spacing-sm);
+    border-bottom: 1px solid var(--wh-color-border);
+  }
+}

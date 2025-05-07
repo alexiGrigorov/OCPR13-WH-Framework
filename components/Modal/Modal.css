@@ -1,0 +1,33 @@
+@layer components {
+  .wh-modal {
+    padding: var(--wh-spacing-md, 1rem);
+    border: none;
+    border-radius: var(--wh-border-radius, 0.25rem);
+    background-color: var(--wh-color-surface, #fff);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: fit-content;
+  }
+
+  .wh-modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .wh-modal-close {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    top: var(--wh-spacing-sm, 0.5rem);
+    right: var(--wh-spacing-sm, 0.5rem);
+    line-height: 1;
+    padding: 0.25rem;
+  }
+
+  .wh-modal-close svg {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+}

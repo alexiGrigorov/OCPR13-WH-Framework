@@ -1,0 +1,7 @@
+@layer components {
+  .wh-date-input {
+    /* For the moment the framework does not have any special styling
+    The style definition is for the linter */
+    font-family: inherit;
+  }
+}
